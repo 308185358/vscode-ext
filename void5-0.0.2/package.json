@@ -1,0 +1,23 @@
+{
+	"name": "void5",
+    "version": "0.0.2",
+    "publisher": "",
+    "engines": { "vscode": "*" },
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme",
+		"dark theme",
+		"void5"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Void5",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Void5-color-theme.json"
+			}
+		]
+	}
+}

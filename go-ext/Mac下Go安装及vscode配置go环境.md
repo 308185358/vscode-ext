@@ -78,6 +78,8 @@ go env
 
 
 
+如果不设置，使用的是系统的env
+
 ### 3.命令行安装gobuildutil 
 
 > 由于墙的原因直接安装完之后，vscode会提示你现在有好几个插件安装失败 
@@ -120,6 +122,10 @@ ln -s $GOPATH/src/github.com/golang $GOPATH/src/golang.org/x
 cd $GOPATH/src/golang.org/x/tools/go/buildutil 
 
 go install 
+
+
+
+go get -v -u github.com/ramya-rao-a/go-outline
 
 ```
 

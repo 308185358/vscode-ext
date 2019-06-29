@@ -80,6 +80,16 @@ go env
 
 如果不设置，使用的是系统的env
 
+
+
+VsCode安装 Golang 扩展
+
+- command + shift + p
+- 输入:go:install/Update Tools
+- 全选，安装
+
+
+
 ### 3.命令行安装gobuildutil 
 
 > 由于墙的原因直接安装完之后，vscode会提示你现在有好几个插件安装失败 
